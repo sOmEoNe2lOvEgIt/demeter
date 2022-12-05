@@ -13,6 +13,7 @@ Demeter gathers info by reading sys files just after a job ran as well as readin
  - Ibmad lib
  - git
  - Make
+ - gcc
 
 ##  How to install Demeter:
 
