@@ -11,6 +11,7 @@ Demeter gathers info by reading sys files just after a job ran as well as readin
  - Slurm source code
  - Slurm lib
  - libibmad-devel
+ - infiniband-diags-devel
  - libcurl-devel
  - rdma-core-devel
  - git
