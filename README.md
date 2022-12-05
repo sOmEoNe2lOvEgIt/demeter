@@ -9,7 +9,7 @@ Demeter gathers info by reading sys files just after a job ran as well as readin
  - An ElasticSearch database
  - Cgroup plugin (optional) to gather memory and cpu usage data
  - Slurm source code
- - Slurm lib
+ - slurm-libs
  - libibmad-devel
  - infiniband-diags-devel
  - libcurl-devel
