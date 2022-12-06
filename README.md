@@ -6,10 +6,10 @@ Demeter gathers info by reading sys files just after a job ran as well as readin
 ## Software requirements:
 
  - A whole slurm cluster (with or without slurmdbd)
- - An ElasticSearch database
- - Cgroup plugin (optional) to gather memory and cpu usage data
- - Slurm source code
- - slurm-libs
+ - An ElasticSearch database (strongly recomended)
+ - Cgroup plugin (optional, paired with demeter's task plugin) to gather memory and cpu usage data
+ - Slurm sources
+ - slurm-libs (preferably compiled from said sources
  - libibmad-devel
  - infiniband-diags-devel
  - libcurl-devel
