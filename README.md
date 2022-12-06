@@ -33,6 +33,8 @@ In the makefile.inc provided, you can see some global variables (like "SLURM_INC
  - SLURM_INC_DIR should be set to the lowest directry of the slurm sources, the "slurm.build" directory.
  - IBMAD_INC_DIR should be set to infiniband include path (generaly located at "*/usr/include/infiniband/*").
  - LIB_SLURM should be se to slurm's subdirectory in your PATH's lib directory (like /usr/lib64/slurm).
+ /!\ Check that the lib installed matches the version of slurm you are currently using. If not, build the lib from slurm's sources from your version then, you can find libslurmfull.so in ```src/api/.libs/libslurmfull.so``` in the slurm sources folder /!\
+ - LIB_SLURM_FULL should be the name of the libslurmfull binary without it's "lib" prefix nor it's extention (for example, if the file is called "libslurmfull.so", this should be set to "slurmfull", if the file is called "libslurmfull-20.9-1.so", this should be set to "slurmfull-20.9-1", etc...)
 
 Good! Now you can try to compile the lib whith the make command in the lib's source directory. You may need to resolve some more dependencies.
 ```
