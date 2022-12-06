@@ -14,6 +14,7 @@ Demeter gathers info by reading sys files just after a job ran as well as readin
  - infiniband-diags-devel
  - libcurl-devel
  - rdma-core-devel
+ - zlib-devel
  - git
  - Make
  - gcc
